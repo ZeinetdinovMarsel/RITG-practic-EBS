@@ -1,0 +1,12 @@
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Core\bin\Debug\net8.0\EBS.Core.deps.json
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Core\bin\Debug\net8.0\EBS.Core.dll
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Core\bin\Debug\net8.0\EBS.Core.pdb
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Core\obj\Debug\net8.0\EBS.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Core\obj\Debug\net8.0\EBS.Core.AssemblyInfoInputs.cache
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Core\obj\Debug\net8.0\EBS.Core.AssemblyInfo.cs
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Core\obj\Debug\net8.0\EBS.Core.csproj.CoreCompileInputs.cache
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Core\obj\Debug\net8.0\EBS.Core.sourcelink.json
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Core\obj\Debug\net8.0\EBS.Core.dll
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Core\obj\Debug\net8.0\refint\EBS.Core.dll
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Core\obj\Debug\net8.0\EBS.Core.pdb
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Core\obj\Debug\net8.0\ref\EBS.Core.dll

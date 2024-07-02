@@ -1,0 +1,16 @@
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\obj\Debug\net8.0\EBS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\obj\Debug\net8.0\EBS.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\obj\Debug\net8.0\EBS.Infrastructure.AssemblyInfo.cs
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\obj\Debug\net8.0\EBS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\obj\Debug\net8.0\EBS.Infrastructure.sourcelink.json
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\obj\Debug\net8.0\EBS.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\bin\Debug\net8.0\EBS.Infrastructure.deps.json
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\bin\Debug\net8.0\EBS.Infrastructure.dll
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\bin\Debug\net8.0\EBS.Infrastructure.pdb
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\bin\Debug\net8.0\EBS.Core.dll
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\bin\Debug\net8.0\EBS.Core.pdb
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\obj\Debug\net8.0\EBS.Infr.3AED7542.Up2Date
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\obj\Debug\net8.0\EBS.Infrastructure.dll
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\obj\Debug\net8.0\refint\EBS.Infrastructure.dll
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\obj\Debug\net8.0\EBS.Infrastructure.pdb
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Infrastructure\obj\Debug\net8.0\ref\EBS.Infrastructure.dll

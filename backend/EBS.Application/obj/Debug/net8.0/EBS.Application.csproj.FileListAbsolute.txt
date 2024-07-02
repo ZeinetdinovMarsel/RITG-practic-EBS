@@ -1,0 +1,16 @@
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\obj\Debug\net8.0\EBS.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\obj\Debug\net8.0\EBS.Application.AssemblyInfoInputs.cache
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\obj\Debug\net8.0\EBS.Application.AssemblyInfo.cs
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\obj\Debug\net8.0\EBS.Application.csproj.CoreCompileInputs.cache
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\obj\Debug\net8.0\EBS.Application.sourcelink.json
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\obj\Debug\net8.0\EBS.Application.csproj.AssemblyReference.cache
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\bin\Debug\net8.0\EBS.Application.deps.json
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\bin\Debug\net8.0\EBS.Application.dll
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\bin\Debug\net8.0\EBS.Application.pdb
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\bin\Debug\net8.0\EBS.Core.dll
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\bin\Debug\net8.0\EBS.Core.pdb
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\obj\Debug\net8.0\EBS.Appl.D11348F8.Up2Date
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\obj\Debug\net8.0\EBS.Application.dll
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\obj\Debug\net8.0\refint\EBS.Application.dll
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\obj\Debug\net8.0\EBS.Application.pdb
+C:\Users\marse\source\repos\RITG-practic-EBS\backend\EBS.Application\obj\Debug\net8.0\ref\EBS.Application.dll
