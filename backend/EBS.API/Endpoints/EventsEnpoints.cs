@@ -12,9 +12,9 @@ namespace EBS.API.Endpoints
         {
             app.MapGet("/events", GetAllEvents).RequirePermissions(Permission.Read);
             app.MapGet("/events/{eventId}", GetEventById).RequirePermissions(Permission.Read);
-            app.MapPost("/events", CreateEvent).RequirePermissions(Permission.Create);
-            app.MapPut("/events/{eventId}", UpdateEvent).RequirePermissions(Permission.Update);
-            app.MapDelete("/events/{eventId}", DeleteEvent).RequirePermissions(Permission.Delete);
+            app.MapPost("/events", CreateEvent).RequireRoles(Role.Admin);
+            app.MapPut("/events/{eventId}", UpdateEvent).RequireRoles(Role.Admin);
+            app.MapDelete("/events/{eventId}", DeleteEvent).RequireRoles(Role.Admin);
 
             return app;
         }
@@ -22,6 +22,10 @@ namespace EBS.API.Endpoints
         private static async Task<IResult> GetAllEvents(EventService eventService)
         {
             var events = await eventService.GetAllEventsAsync();
+            if (events == null)
+            {
+                return Results.BadRequest("Мероприятия не найдены");
+            }
             return Results.Ok(events);
         }
 
@@ -30,7 +34,7 @@ namespace EBS.API.Endpoints
             var @event = await eventService.GetEventByIdAsync(eventId);
 
             if (@event == null)
-                return Results.NotFound();
+                return Results.BadRequest($"Мероприятия с id: {eventId} не существует");
 
             return Results.Ok(@event);
         }
@@ -48,7 +52,7 @@ namespace EBS.API.Endpoints
                     MaxAttendees = eventRequest.MaxAttendees,
                 };
                 var createdEvent = await eventService.CreateEventAsync(eventModel);
-                return Results.Created($"/api/events/{createdEvent.Id}", createdEvent);
+                return Results.Ok($"Мероприятие {createdEvent.Title}");
             }
             catch (Exception ex)
             {
@@ -72,7 +76,7 @@ namespace EBS.API.Endpoints
                 var updatedEvent = await eventService.UpdateEventAsync(eventId, eventModel);
 
                 if (updatedEvent == null)
-                    return Results.NotFound();
+                    return Results.BadRequest($"Мероприятия {eventRequest.Title} не существует");
 
                 return Results.Ok(updatedEvent);
             }
@@ -89,9 +93,9 @@ namespace EBS.API.Endpoints
                 var result = await eventService.DeleteEventAsync(eventId);
 
                 if (!result)
-                    return Results.NotFound();
+                    return Results.BadRequest($"Мероприятия с id: {eventId} не существует");
 
-                return Results.Ok();
+                return Results.Ok($"Мероприятие было удалено");
             }
             catch (Exception ex)
             {

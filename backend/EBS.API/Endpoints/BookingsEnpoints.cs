@@ -18,9 +18,11 @@ public static class BookingsEndpoints
         return app;
     }
 
-    private static async Task<IResult> GetAllBookings(BookingService bookingService)
+    private static async Task<IResult> GetAllBookings(BookingService bookingService, HttpContext context, UsersService usersService)
     {
-        var bookings = await bookingService.GetAllBookingsAsync();
+        UserModel user = await usersService.GetUserFromToken(context.Request.Cookies["jwt"]);
+        var userId = user.Id;
+        var bookings = await bookingService.GetAllBookingsAsync(userId);
         return Results.Ok(bookings);
     }
 
@@ -29,7 +31,7 @@ public static class BookingsEndpoints
         var booking = await bookingService.GetBookingByIdAsync(bookingId);
 
         if (booking == null)
-            return Results.NotFound(bookingId);
+            return Results.BadRequest(bookingId);
 
         return Results.Ok(booking);
     }
@@ -54,7 +56,7 @@ public static class BookingsEndpoints
                 IsCancelled = false
             };
             var bookingId = await bookingService.CreateBookingAsync(bookingModel);
-            return Results.Created($"/api/bookings/{bookingId}", bookingId);
+            return Results.Created($"/bookings/{bookingId}", bookingId);
         }
         catch (Exception ex)
         {
@@ -92,7 +94,7 @@ public static class BookingsEndpoints
             var result = await bookingService.DeleteBookingAsync(bookingId);
 
             if (!result)
-                return Results.NotFound();
+                return Results.BadRequest(bookingId);
 
             return Results.Ok(bookingId);
         }

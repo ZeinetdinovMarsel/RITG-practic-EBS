@@ -2,6 +2,7 @@
 using EBS.Core.Models;
 using EBS.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace EBS.DataAccess.Repositories;
 public class EventRepository : IEventRepository
@@ -52,7 +53,19 @@ public class EventRepository : IEventRepository
 
     public async Task<EventModel> CreateEventAsync(EventModel eventModel)
     {
-        var eventEntity = new EventEntity
+        var eventEntity = await _dbContext.Events
+        .AsNoTracking()
+        .FirstOrDefaultAsync(e => e.Title == eventModel.Title);
+
+        if (eventEntity != null)
+        {
+            throw new InvalidOperationException("Мероприятие с таким названием уже существует");
+        }
+        if (eventModel.Date < DateTime.UtcNow.AddHours(4))
+        {
+            throw new Exception("Дата мероприятия не может быть объявлена раньше чем за 4 часа до начала");
+        }
+        eventEntity = new EventEntity
         {
             Title = eventModel.Title,
             Description = eventModel.Description,
@@ -80,12 +93,18 @@ public class EventRepository : IEventRepository
         if (eventEntity == null)
             return null;
 
+        if (eventModel.Date < DateTime.UtcNow.AddHours(4))
+        {
+            throw new Exception("Дата мероприятия не может быть объявлена раньше чем за 4 часа до начала");
+        }
+
         eventEntity.Title = eventModel.Title;
         eventEntity.Description = eventModel.Description;
         eventEntity.Location = eventModel.Location;
         eventEntity.Date = eventModel.Date;
         eventEntity.MaxAttendees = eventModel.MaxAttendees;
         eventEntity.UpdatedAt = DateTime.UtcNow;
+
 
         _dbContext.SaveChanges();
 

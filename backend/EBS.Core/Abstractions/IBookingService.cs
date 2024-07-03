@@ -5,7 +5,7 @@ public interface IBookingService
 {
     Task<BookingModel> CreateBookingAsync(BookingModel bookingModel);
     Task<bool> DeleteBookingAsync(int bookingId);
-    Task<List<BookingModel>> GetAllBookingsAsync();
+    Task<List<BookingModel>> GetAllBookingsAsync(int userId);
     Task<BookingModel> GetBookingByIdAsync(int bookingId);
     Task<BookingModel> UpdateBookingAsync(int bookingId, BookingModel bookingModel);
 

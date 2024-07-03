@@ -7,15 +7,19 @@ public class BookingService : IBookingService
 {
     private readonly IBookingRepository _bookingRepository;
     private readonly IEventRepository _eventRepository;
-    public BookingService(IBookingRepository bookingRepository, IEventRepository eventRepository)
+    private readonly IUsersRepository _userRepository;
+    public BookingService(IBookingRepository bookingRepository, IEventRepository eventRepository,IUsersRepository usersRepository)
     {
         _bookingRepository = bookingRepository;
         _eventRepository = eventRepository;
+        _userRepository = usersRepository;
     }
 
-    public Task<List<BookingModel>> GetAllBookingsAsync()
+    public async Task<List<BookingModel>> GetAllBookingsAsync(int userId)
     {
-        return _bookingRepository.GetAllBookingsAsync();
+        var user = await _userRepository.GetById(userId);
+        bool isAdmin = user.IsAdmin;
+        return await _bookingRepository.GetAllBookingsAsync(isAdmin);
     }
 
     public Task<BookingModel> GetBookingByIdAsync(int bookingId)

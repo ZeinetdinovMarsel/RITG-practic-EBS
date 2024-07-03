@@ -9,14 +9,14 @@ public static class UsersEndpoints
 {
     public static IEndpointRouteBuilder MapUsersEndpoints(this IEndpointRouteBuilder app)
     {
-        app.MapPost("/users/register", Register);
-        app.MapPost("/users/login", Login);
-        app.MapPost("/users/logout", Logout);
-        app.MapGet("/user/profile", GetUserDetails);
-        app.MapPut("/user/profile/update", UpdateUser);
+        app.MapPost("/user/register", Register);
+        app.MapPost("/user/login", Login);
+        app.MapPost("/user/logout", Logout).RequireAuthorization();
+        app.MapGet("/user/profile", GetUserDetails).RequireAuthorization();
+        app.MapPut("/user/profile/update", UpdateUser).RequireAuthorization();
         app.MapDelete("/user/profile/delete", DeleteUser).RequireRoles(Role.Admin);
-        app.MapGet("/users/role/all", GetUsersByRole);
-        app.MapGet("/users/role/{id}", GetUserRole);
+        app.MapGet("/users/role/all/", GetUsersByRole).RequireAuthorization();
+        app.MapGet("/user/profile/role", GetUserRole).RequireAuthorization();
 
         return app;
     }
@@ -142,7 +142,14 @@ public static class UsersEndpoints
     {
         var users = await usersService.GetAllUsersByRole(roleId);
 
-        var response = users.Select(u => new UsersRequest(u.Id, u.Username));
+        var response = users.Select(u => new UsersAdminResponse(
+            u.Id,
+            u.Username,
+            u.PasswordHash,
+            u.Email,
+            u.IsAdmin,
+            u.CreatedAt,
+            u.UpdatedAt));
 
         return Results.Ok(response);
     }

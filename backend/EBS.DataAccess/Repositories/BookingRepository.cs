@@ -2,6 +2,7 @@
 using EBS.Core.Models;
 using EBS.DataAccess.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 namespace EBS.DataAccess.Repositories;
 public class BookingRepository : IBookingRepository
@@ -13,19 +14,41 @@ public class BookingRepository : IBookingRepository
         _dbContext = dbContext;
     }
 
-    public async Task<List<BookingModel>> GetAllBookingsAsync()
+    public async Task<List<BookingModel>> GetAllBookingsAsync(bool isAdmin)
     {
-        return await _dbContext.Bookings
-            .Select(b => new BookingModel
-            {
-                Id = b.Id,
-                EventId = b.EventId,
-                UserId = b.UserId,
-                BookingDate = b.BookingDate,
-                CreatedAt = b.CreatedAt,
-                UpdatedAt = b.UpdatedAt
-            })
-            .ToListAsync();
+
+        if (isAdmin)
+        {
+
+            return await _dbContext.Bookings
+                .Select(b => new BookingModel
+                {
+                    Id = b.Id,
+                    EventId = b.EventId,
+                    BookingDate = b.BookingDate,
+                    CreatedAt = b.CreatedAt,
+                    UpdatedAt = b.UpdatedAt,
+                    HasAttended = b.HasAttended,
+                    IsCancelled = b.IsCancelled,
+                })
+                .ToListAsync();
+        }
+        else
+        {
+            return await _dbContext.Bookings
+                .Select(b => new BookingModel
+                {
+                    Id = b.Id,
+                    EventId = b.EventId,
+                    UserId = b.UserId,
+                    BookingDate = b.BookingDate,
+                    CreatedAt = b.CreatedAt,
+                    UpdatedAt = b.UpdatedAt,
+                    HasAttended = b.HasAttended,
+                    IsCancelled = b.IsCancelled,
+                })
+                .ToListAsync();
+        }
     }
 
     public async Task<BookingModel> GetBookingByIdAsync(int bookingId)
@@ -42,7 +65,9 @@ public class BookingRepository : IBookingRepository
             UserId = bookingEntity.UserId,
             BookingDate = bookingEntity.BookingDate,
             CreatedAt = bookingEntity.CreatedAt,
-            UpdatedAt = bookingEntity.UpdatedAt
+            UpdatedAt = bookingEntity.UpdatedAt,
+            HasAttended = bookingEntity.HasAttended,
+            IsCancelled = bookingEntity.IsCancelled,
         };
     }
 
@@ -76,6 +101,9 @@ public class BookingRepository : IBookingRepository
     {
         var bookingEntity = await _dbContext.Bookings.FindAsync(bookingId);
 
+        var eventEntity = _dbContext.Events.Find(bookingModel.EventId);
+        var userEntity = _dbContext.Users.Find(bookingModel.UserId);
+
         if (bookingEntity == null)
             return null;
 
@@ -83,6 +111,10 @@ public class BookingRepository : IBookingRepository
         bookingEntity.UserId = bookingModel.UserId;
         bookingEntity.BookingDate = bookingModel.BookingDate;
         bookingEntity.UpdatedAt = DateTime.UtcNow;
+        bookingEntity.HasAttended = bookingModel.HasAttended;
+        bookingEntity.IsCancelled = bookingModel.IsCancelled;
+        bookingEntity.Event = eventEntity;
+        bookingEntity.User = userEntity;
 
         _dbContext.SaveChanges();
 
@@ -113,7 +145,9 @@ public class BookingRepository : IBookingRepository
                 UserId = b.UserId,
                 BookingDate = b.BookingDate,
                 CreatedAt = b.CreatedAt,
-                UpdatedAt = b.UpdatedAt
+                UpdatedAt = b.UpdatedAt,
+                HasAttended = b.HasAttended,
+                IsCancelled = b.IsCancelled,
             })
             .FirstOrDefaultAsync();
     }

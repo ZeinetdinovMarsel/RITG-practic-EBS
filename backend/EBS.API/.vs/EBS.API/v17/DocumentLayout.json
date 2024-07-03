@@ -3,27 +3,49 @@
   "WorkspaceRootPath": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\configurations\\bookingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\abstractions\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72E73E89-9144-46DE-9A4A-F6666B01B844}|..\\EBS.Application\\EBS.Application.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.application\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72E73E89-9144-46DE-9A4A-F6666B01B844}|..\\EBS.Application\\EBS.Application.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.application\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\endpoints\\bookingsenpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:endpoints\\bookingsenpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\contracts\\bookingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:contracts\\bookingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\abstractions\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E73E89-9144-46DE-9A4A-F6666B01B844}|..\\EBS.Application\\EBS.Application.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.application\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\endpoints\\eventsenpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:endpoints\\eventsenpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\contracts\\eventrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:contracts\\eventrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A09FC086-0B1D-414E-8496-E10F8DEB6399}|..\\EBS.Infrastructure\\EBS.Infrastructure.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.infrastructure\\permissionauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\entities\\permissionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\entities\\roleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\contracts\\usersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:contracts\\usersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\contracts\\rolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:contracts\\rolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\contracts\\loginuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,54 +56,74 @@
       "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:contracts\\registeruserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\contracts\\rolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:contracts\\rolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\models\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\contracts\\usersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:contracts\\usersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\ebs.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:ebs.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\endpoints\\bookingsenpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:endpoints\\bookingsenpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\endpoints\\eventsenpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:endpoints\\eventsenpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\abstractions\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\abstractions\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\extentions\\apiextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:extentions\\apiextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\endpoints\\statisticsendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:endpoints\\statisticsendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72E73E89-9144-46DE-9A4A-F6666B01B844}|..\\EBS.Application\\EBS.Application.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.application\\services\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\endpoints\\usersendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:endpoints\\usersendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72E73E89-9144-46DE-9A4A-F6666B01B844}|..\\EBS.Application\\EBS.Application.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.application\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72E73E89-9144-46DE-9A4A-F6666B01B844}|..\\EBS.Application\\EBS.Application.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\endpoints\\statisticsendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:endpoints\\statisticsendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\abstractions\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\extentions\\apiextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:extentions\\apiextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\entities\\evententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\entities\\bookingentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\models\\bookingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\entities\\bookingentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\configurations\\bookingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E73E89-9144-46DE-9A4A-F6666B01B844}|..\\EBS.Application\\EBS.Application.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.application\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E73E89-9144-46DE-9A4A-F6666B01B844}|..\\EBS.Application\\EBS.Application.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.application\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\abstractions\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\enums\\trendperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -102,22 +144,13 @@
       "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\models\\noshowstatsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\models\\eventmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\entities\\rolepermissionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\authorizationoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\abstractions\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\abstractions\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\abstractions\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\abstractions\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -130,9 +163,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\abstractions\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\abstractions\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -153,32 +183,16 @@
       "AbsoluteMoniker": "D:0:0:{A09FC086-0B1D-414E-8496-E10F8DEB6399}|..\\EBS.Infrastructure\\EBS.Infrastructure.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.infrastructure\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\entities\\permissionentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\entities\\userroleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\entities\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\entities\\evententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\configurations\\eventconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72E73E89-9144-46DE-9A4A-F6666B01B844}|..\\EBS.Application\\EBS.Application.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.application\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\enums\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6D4C1CB-3DE7-4275-BDC1-7EF78AC78AC0}|..\\EBS.Core\\EBS.Core.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.core\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EBF65197-D45D-4F18-A60D-54EA54B9DD19}|EBS.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\configurations\\permissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -196,13 +210,7 @@
       "AbsoluteMoniker": "D:0:0:{A09FC086-0B1D-414E-8496-E10F8DEB6399}|..\\EBS.Infrastructure\\EBS.Infrastructure.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.infrastructure\\roleauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A09FC086-0B1D-414E-8496-E10F8DEB6399}|..\\EBS.Infrastructure\\EBS.Infrastructure.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.infrastructure\\permissionauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72E73E89-9144-46DE-9A4A-F6666B01B844}|..\\EBS.Application\\EBS.Application.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.application\\services\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DF104541-872D-403B-BC10-E1C46D80F59B}|..\\EBS.DataAccess\\EBS.DataAccess.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.dataaccess\\entities\\roleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A09FC086-0B1D-414E-8496-E10F8DEB6399}|..\\EBS.Infrastructure\\EBS.Infrastructure.csproj|c:\\users\\marse\\source\\repos\\ritg-practic-ebs\\backend\\ebs.infrastructure\\permissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -221,8 +229,86 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Repositories\\EventRepository.cs",
+              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Repositories\\EventRepository.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Repositories\\EventRepository.cs",
+              "RelativeToolTip": "..\\EBS.DataAccess\\Repositories\\EventRepository.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAwwGEAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T11:54:02.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventsEnpoints.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\EventsEnpoints.cs",
+              "RelativeDocumentMoniker": "Endpoints\\EventsEnpoints.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\EventsEnpoints.cs",
+              "RelativeToolTip": "Endpoints\\EventsEnpoints.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAIwEsAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T12:01:10.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingRequest.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\BookingRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\BookingRequest.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\BookingRequest.cs",
+              "RelativeToolTip": "Contracts\\BookingRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T14:19:49.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookingsEnpoints.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\BookingsEnpoints.cs",
+              "RelativeDocumentMoniker": "Endpoints\\BookingsEnpoints.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\BookingsEnpoints.cs",
+              "RelativeToolTip": "Endpoints\\BookingsEnpoints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T14:19:05.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IEventRepository.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IEventRepository.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IEventRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T11:55:42.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Application\\Services\\EventService.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\EventService.cs",
+              "RelativeToolTip": "..\\EBS.Application\\Services\\EventService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T11:58:28.595Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
@@ -231,703 +317,170 @@
               "RelativeDocumentMoniker": "Contracts\\EventRequest.cs",
               "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\EventRequest.cs",
               "RelativeToolTip": "Contracts\\EventRequest.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-02T12:14:15.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BookingRequest.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\BookingRequest.cs",
-              "RelativeDocumentMoniker": "Contracts\\BookingRequest.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\BookingRequest.cs",
-              "RelativeToolTip": "Contracts\\BookingRequest.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAwAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T14:19:49.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "UsersRequest.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\UsersRequest.cs",
-              "RelativeDocumentMoniker": "Contracts\\UsersRequest.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\UsersRequest.cs",
-              "RelativeToolTip": "Contracts\\UsersRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAACAAAA",
+              "Title": "RoleEntity.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\RoleEntity.cs",
+              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Entities\\RoleEntity.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\RoleEntity.cs",
+              "RelativeToolTip": "..\\EBS.DataAccess\\Entities\\RoleEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:54:58.497Z",
+              "WhenOpened": "2024-07-02T10:42:12.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "RoleRequest.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\RoleRequest.cs",
-              "RelativeDocumentMoniker": "Contracts\\RoleRequest.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\RoleRequest.cs",
-              "RelativeToolTip": "Contracts\\RoleRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:55:07.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RegisterUserRequest.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\RegisterUserRequest.cs",
-              "RelativeDocumentMoniker": "Contracts\\RegisterUserRequest.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\RegisterUserRequest.cs",
-              "RelativeToolTip": "Contracts\\RegisterUserRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:55:40.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginUserRequest.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\LoginUserRequest.cs",
-              "RelativeDocumentMoniker": "Contracts\\LoginUserRequest.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\LoginUserRequest.cs",
-              "RelativeToolTip": "Contracts\\LoginUserRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:55:49.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BookingService.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\BookingService.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Application\\Services\\BookingService.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\BookingService.cs",
-              "RelativeToolTip": "..\\EBS.Application\\Services\\BookingService.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowCwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T11:59:40.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RoleService.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\RoleService.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Application\\Services\\RoleService.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\RoleService.cs",
-              "RelativeToolTip": "..\\EBS.Application\\Services\\RoleService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:52:52.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookingConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\BookingConfiguration.cs",
-              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Configurations\\BookingConfiguration.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\BookingConfiguration.cs",
-              "RelativeToolTip": "..\\EBS.DataAccess\\Configurations\\BookingConfiguration.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAABYAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T11:19:51.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Repositories\\BookingRepository.cs",
-              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Repositories\\BookingRepository.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Repositories\\BookingRepository.cs",
-              "RelativeToolTip": "..\\EBS.DataAccess\\Repositories\\BookingRepository.cs",
-              "ViewState": "AQIAALEAAAAAAAAAAAAiwLoAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T11:56:40.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IBookingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IBookingRepository.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IBookingRepository.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IBookingRepository.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IBookingRepository.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T16:58:37.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BookingsEnpoints.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\BookingsEnpoints.cs",
-              "RelativeDocumentMoniker": "Endpoints\\BookingsEnpoints.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\BookingsEnpoints.cs",
-              "RelativeToolTip": "Endpoints\\BookingsEnpoints.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAIwEoAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T14:19:05.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EventsEnpoints.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\EventsEnpoints.cs",
-              "RelativeDocumentMoniker": "Endpoints\\EventsEnpoints.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\EventsEnpoints.cs",
-              "RelativeToolTip": "Endpoints\\EventsEnpoints.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T12:01:10.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAACEAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:53:19.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ApiExtentions.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Extentions\\ApiExtentions.cs",
-              "RelativeDocumentMoniker": "Extentions\\ApiExtentions.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Extentions\\ApiExtentions.cs",
-              "RelativeToolTip": "Extentions\\ApiExtentions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAkwBAAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:55:59.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "..\\EBS.Application\\Services\\UserService.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAApwGEAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:51:14.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "EventRepository.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Repositories\\EventRepository.cs",
-              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Repositories\\EventRepository.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Repositories\\EventRepository.cs",
-              "RelativeToolTip": "..\\EBS.DataAccess\\Repositories\\EventRepository.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAmwG0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T11:54:02.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "StatisticsService.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\StatisticsService.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Application\\Services\\StatisticsService.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\StatisticsService.cs",
-              "RelativeToolTip": "..\\EBS.Application\\Services\\StatisticsService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAADQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T15:52:30.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "StatisticsEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\StatisticsEndpoints.cs",
-              "RelativeDocumentMoniker": "Endpoints\\StatisticsEndpoints.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\StatisticsEndpoints.cs",
-              "RelativeToolTip": "Endpoints\\StatisticsEndpoints.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T16:48:36.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IAdminRepository.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IAdminRepository.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IAdminRepository.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IAdminRepository.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IAdminRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:51:08.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UsersEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\UsersEndpoints.cs",
-              "RelativeDocumentMoniker": "Endpoints\\UsersEndpoints.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\UsersEndpoints.cs",
-              "RelativeToolTip": "Endpoints\\UsersEndpoints.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:53:24.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BookingModel.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\BookingModel.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Models\\BookingModel.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\BookingModel.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Models\\BookingModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T11:36:12.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "BookingEntity.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\BookingEntity.cs",
-              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Entities\\BookingEntity.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\BookingEntity.cs",
-              "RelativeToolTip": "..\\EBS.DataAccess\\Entities\\BookingEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T11:14:42.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "TrendPeriod.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\TrendPeriod.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Enums\\TrendPeriod.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\TrendPeriod.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Enums\\TrendPeriod.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T16:31:25.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IStatisticsService.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IStatisticsService.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IStatisticsService.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IStatisticsService.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IStatisticsService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T16:24:40.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IRoleService.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IRoleService.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IRoleService.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IRoleService.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IRoleService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:50:45.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "StatisticsModels.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\StatisticsModels.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Models\\StatisticsModels.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\StatisticsModels.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Models\\StatisticsModels.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAA1wCwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T15:51:53.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Status.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\Status.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Enums\\Status.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\Status.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Enums\\Status.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:50:09.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "NoShowStatsModel.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\NoShowStatsModel.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Models\\NoShowStatsModel.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\NoShowStatsModel.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Models\\NoShowStatsModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T16:19:43.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "EventModel.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\EventModel.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Models\\EventModel.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\EventModel.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Models\\EventModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:56:38.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "RolePermissionEntity.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\RolePermissionEntity.cs",
-              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Entities\\RolePermissionEntity.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\RolePermissionEntity.cs",
-              "RelativeToolTip": "..\\EBS.DataAccess\\Entities\\RolePermissionEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:42:34.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "AuthorizationOptions.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\AuthorizationOptions.cs",
-              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\AuthorizationOptions.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\AuthorizationOptions.cs",
-              "RelativeToolTip": "..\\EBS.DataAccess\\AuthorizationOptions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:45:33.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "IEventRepository.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IEventRepository.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IEventRepository.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IEventRepository.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IEventRepository.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAArwAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T11:55:42.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "IJwtProvider.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IJwtProvider.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IJwtProvider.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IJwtProvider.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IJwtProvider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:51:02.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "IBookingService.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IBookingService.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IBookingService.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IBookingService.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IBookingService.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAYwAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T12:00:13.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IPasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IPasswordHasher.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IPasswordHasher.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IPasswordHasher.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IPasswordHasher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:50:54.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IPermissionService.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IPermissionService.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IPermissionService.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IPermissionService.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IPermissionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:50:50.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IUsersService.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IUsersService.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IUsersService.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IUsersService.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IUsersService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T12:53:33.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "IUsersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IUsersRepository.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IUsersRepository.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IUsersRepository.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IUsersRepository.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAiwBEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T12:52:33.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "UsersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Repositories\\UsersRepository.cs",
-              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Repositories\\UsersRepository.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Repositories\\UsersRepository.cs",
-              "RelativeToolTip": "..\\EBS.DataAccess\\Repositories\\UsersRepository.cs",
-              "ViewState": "AQIAAKQAAAAAAAAAAAAmwLsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:44:03.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "IEventService.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IEventService.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IEventService.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IEventService.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IEventService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T11:59:01.23Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "RolePermissionConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\RolePermissionConfiguration.cs",
-              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Configurations\\RolePermissionConfiguration.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\RolePermissionConfiguration.cs",
-              "RelativeToolTip": "..\\EBS.DataAccess\\Configurations\\RolePermissionConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAgwBsAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:48:03.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "RoleConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\RoleConfiguration.cs",
-              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Configurations\\RoleConfiguration.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\RoleConfiguration.cs",
-              "RelativeToolTip": "..\\EBS.DataAccess\\Configurations\\RoleConfiguration.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAwwBwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:48:28.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Configurations\\UserConfiguration.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\UserConfiguration.cs",
-              "RelativeToolTip": "..\\EBS.DataAccess\\Configurations\\UserConfiguration.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAmwB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:47:57.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\UserModel.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Models\\UserModel.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\UserModel.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Models\\UserModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:48:49.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
               "Title": "PermissionEntity.cs",
               "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\PermissionEntity.cs",
               "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Entities\\PermissionEntity.cs",
               "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\PermissionEntity.cs",
               "RelativeToolTip": "..\\EBS.DataAccess\\Entities\\PermissionEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-02T10:39:45.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "UserRoleEntity.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\UserRoleEntity.cs",
-              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Entities\\UserRoleEntity.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\UserRoleEntity.cs",
-              "RelativeToolTip": "..\\EBS.DataAccess\\Entities\\UserRoleEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAOAAAA",
+              "DocumentIndex": 7,
+              "Title": "PermissionAuthorizationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Infrastructure\\PermissionAuthorizationHandler.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Infrastructure\\PermissionAuthorizationHandler.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Infrastructure\\PermissionAuthorizationHandler.cs",
+              "RelativeToolTip": "..\\EBS.Infrastructure\\PermissionAuthorizationHandler.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:43:04.279Z",
+              "WhenOpened": "2024-07-02T10:47:02.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\UserEntity.cs",
-              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Entities\\UserEntity.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\UserEntity.cs",
-              "RelativeToolTip": "..\\EBS.DataAccess\\Entities\\UserEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "DocumentIndex": 8,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "..\\EBS.DataAccess\\Repositories\\UsersRepository.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAgwIQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:41:27.468Z",
+              "WhenOpened": "2024-07-02T10:44:03.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "JwtProvider.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Infrastructure\\JwtProvider.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Infrastructure\\JwtProvider.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Infrastructure\\JwtProvider.cs",
-              "RelativeToolTip": "..\\EBS.Infrastructure\\JwtProvider.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAA4wDwAAAAEAAAA",
+              "DocumentIndex": 11,
+              "Title": "UsersRequest.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\UsersRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\UsersRequest.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\UsersRequest.cs",
+              "RelativeToolTip": "Contracts\\UsersRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:46:25.551Z",
+              "WhenOpened": "2024-07-02T10:54:58.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "EventConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\EventConfiguration.cs",
-              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Configurations\\EventConfiguration.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\EventConfiguration.cs",
-              "RelativeToolTip": "..\\EBS.DataAccess\\Configurations\\EventConfiguration.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAcwB0AAAAAAAAA",
+              "DocumentIndex": 12,
+              "Title": "RoleRequest.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\RoleRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\RoleRequest.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\RoleRequest.cs",
+              "RelativeToolTip": "Contracts\\RoleRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T11:09:45.05Z",
+              "WhenOpened": "2024-07-02T10:55:07.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "EventEntity.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\EventEntity.cs",
-              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Entities\\EventEntity.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\EventEntity.cs",
-              "RelativeToolTip": "..\\EBS.DataAccess\\Entities\\EventEntity.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAUwA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:39:44.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "EventService.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\EventService.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Application\\Services\\EventService.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\EventService.cs",
-              "RelativeToolTip": "..\\EBS.Application\\Services\\EventService.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAwwCcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T11:58:28.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Permission.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\Permission.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Enums\\Permission.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\Permission.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Enums\\Permission.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:50:24.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\Role.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Core\\Enums\\Role.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\Role.cs",
-              "RelativeToolTip": "..\\EBS.Core\\Enums\\Role.cs",
+              "DocumentIndex": 13,
+              "Title": "LoginUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\LoginUserRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\LoginUserRequest.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\LoginUserRequest.cs",
+              "RelativeToolTip": "Contracts\\LoginUserRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:50:17.651Z",
+              "WhenOpened": "2024-07-02T10:55:49.137Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 14,
+              "Title": "RegisterUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\RegisterUserRequest.cs",
+              "RelativeDocumentMoniker": "Contracts\\RegisterUserRequest.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Contracts\\RegisterUserRequest.cs",
+              "RelativeToolTip": "Contracts\\RegisterUserRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:55:40.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EventModel.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\EventModel.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Models\\EventModel.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\EventModel.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Models\\EventModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:56:38.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EBS.API.http",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\EBS.API.http",
+              "RelativeDocumentMoniker": "EBS.API.http",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\EBS.API.http",
+              "RelativeToolTip": "EBS.API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-07-03T13:22:41.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\EBS.Application\\Services\\UserService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAQwEkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:51:14.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UsersEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\UsersEndpoints.cs",
+              "RelativeDocumentMoniker": "Endpoints\\UsersEndpoints.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\UsersEndpoints.cs",
+              "RelativeToolTip": "Endpoints\\UsersEndpoints.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAIwGcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:53:24.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -940,7 +493,487 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "StatisticsEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\StatisticsEndpoints.cs",
+              "RelativeDocumentMoniker": "Endpoints\\StatisticsEndpoints.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Endpoints\\StatisticsEndpoints.cs",
+              "RelativeToolTip": "Endpoints\\StatisticsEndpoints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T16:48:36.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\BookingService.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Application\\Services\\BookingService.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\BookingService.cs",
+              "RelativeToolTip": "..\\EBS.Application\\Services\\BookingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T11:59:40.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IBookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IBookingRepository.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IBookingRepository.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IBookingRepository.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IBookingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T16:58:37.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BookingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Repositories\\BookingRepository.cs",
+              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Repositories\\BookingRepository.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Repositories\\BookingRepository.cs",
+              "RelativeToolTip": "..\\EBS.DataAccess\\Repositories\\BookingRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T11:56:40.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IBookingService.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IBookingService.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IBookingService.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IBookingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T12:00:13.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApiExtentions.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Extentions\\ApiExtentions.cs",
+              "RelativeDocumentMoniker": "Extentions\\ApiExtentions.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Extentions\\ApiExtentions.cs",
+              "RelativeToolTip": "Extentions\\ApiExtentions.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwCkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:55:59.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAACEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:53:19.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-03T13:29:58.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\UserEntity.cs",
+              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Entities\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\UserEntity.cs",
+              "RelativeToolTip": "..\\EBS.DataAccess\\Entities\\UserEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:41:27.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EventEntity.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\EventEntity.cs",
+              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Entities\\EventEntity.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\EventEntity.cs",
+              "RelativeToolTip": "..\\EBS.DataAccess\\Entities\\EventEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:39:44.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BookingEntity.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\BookingEntity.cs",
+              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Entities\\BookingEntity.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\BookingEntity.cs",
+              "RelativeToolTip": "..\\EBS.DataAccess\\Entities\\BookingEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T11:14:42.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BookingModel.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\BookingModel.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Models\\BookingModel.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\BookingModel.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Models\\BookingModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T11:36:12.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Application\\Services\\RoleService.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\RoleService.cs",
+              "RelativeToolTip": "..\\EBS.Application\\Services\\RoleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:52:52.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BookingConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\BookingConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Configurations\\BookingConfiguration.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\BookingConfiguration.cs",
+              "RelativeToolTip": "..\\EBS.DataAccess\\Configurations\\BookingConfiguration.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAABYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T11:19:51.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "StatisticsService.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\StatisticsService.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Application\\Services\\StatisticsService.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\StatisticsService.cs",
+              "RelativeToolTip": "..\\EBS.Application\\Services\\StatisticsService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAADQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:52:30.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IAdminRepository.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IAdminRepository.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IAdminRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:51:08.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TrendPeriod.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\TrendPeriod.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Enums\\TrendPeriod.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\TrendPeriod.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Enums\\TrendPeriod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T16:31:25.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IStatisticsService.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IStatisticsService.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IStatisticsService.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IStatisticsService.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IStatisticsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T16:24:40.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IRoleService.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IRoleService.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IRoleService.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IRoleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:50:45.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "StatisticsModels.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\StatisticsModels.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Models\\StatisticsModels.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\StatisticsModels.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Models\\StatisticsModels.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAA1wCwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:51:53.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Status.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\Status.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Enums\\Status.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\Status.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Enums\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:50:09.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "NoShowStatsModel.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\NoShowStatsModel.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Models\\NoShowStatsModel.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\NoShowStatsModel.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Models\\NoShowStatsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T16:19:43.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RolePermissionEntity.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\RolePermissionEntity.cs",
+              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Entities\\RolePermissionEntity.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\RolePermissionEntity.cs",
+              "RelativeToolTip": "..\\EBS.DataAccess\\Entities\\RolePermissionEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:42:34.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AuthorizationOptions.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\AuthorizationOptions.cs",
+              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\AuthorizationOptions.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\AuthorizationOptions.cs",
+              "RelativeToolTip": "..\\EBS.DataAccess\\AuthorizationOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:45:33.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IJwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IJwtProvider.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IJwtProvider.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IJwtProvider.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IJwtProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:51:02.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IPasswordHasher.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IPasswordHasher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:50:54.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IPermissionService.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IPermissionService.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IPermissionService.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IPermissionService.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IPermissionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:50:50.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IUsersService.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IUsersService.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IUsersService.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IUsersService.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IUsersService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T12:53:33.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IUsersRepository.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IUsersRepository.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IUsersRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAiwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T12:52:33.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IEventService.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IEventService.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Abstractions\\IEventService.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Abstractions\\IEventService.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Abstractions\\IEventService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T11:59:01.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "RolePermissionConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\RolePermissionConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Configurations\\RolePermissionConfiguration.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\RolePermissionConfiguration.cs",
+              "RelativeToolTip": "..\\EBS.DataAccess\\Configurations\\RolePermissionConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwBsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:48:03.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Configurations\\RoleConfiguration.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\RoleConfiguration.cs",
+              "RelativeToolTip": "..\\EBS.DataAccess\\Configurations\\RoleConfiguration.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwBwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:48:28.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "..\\EBS.DataAccess\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:47:57.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Models\\UserModel.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Models\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:48:49.112Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 55,
+              "Title": "UserRoleEntity.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\UserRoleEntity.cs",
+              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Entities\\UserRoleEntity.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\UserRoleEntity.cs",
+              "RelativeToolTip": "..\\EBS.DataAccess\\Entities\\UserRoleEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:43:04.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "JwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Infrastructure\\JwtProvider.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Infrastructure\\JwtProvider.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Infrastructure\\JwtProvider.cs",
+              "RelativeToolTip": "..\\EBS.Infrastructure\\JwtProvider.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAA4wDwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:46:25.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "EventConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\EventConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Configurations\\EventConfiguration.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\EventConfiguration.cs",
+              "RelativeToolTip": "..\\EBS.DataAccess\\Configurations\\EventConfiguration.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAcwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T11:09:45.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\Permission.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Enums\\Permission.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\Permission.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Enums\\Permission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:50:24.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\Role.cs",
+              "RelativeDocumentMoniker": "..\\EBS.Core\\Enums\\Role.cs",
+              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Core\\Enums\\Role.cs",
+              "RelativeToolTip": "..\\EBS.Core\\Enums\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T10:50:17.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
               "Title": "PermissionConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Configurations\\PermissionConfiguration.cs",
               "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Configurations\\PermissionConfiguration.cs",
@@ -948,12 +981,11 @@
               "RelativeToolTip": "..\\EBS.DataAccess\\Configurations\\PermissionConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:48:39.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:48:39.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 60,
               "Title": "RoleRequirement.cs",
               "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Infrastructure\\RoleRequirement.cs",
               "RelativeDocumentMoniker": "..\\EBS.Infrastructure\\RoleRequirement.cs",
@@ -961,12 +993,11 @@
               "RelativeToolTip": "..\\EBS.Infrastructure\\RoleRequirement.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:47:38.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:47:38.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 61,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Infrastructure\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "..\\EBS.Infrastructure\\PasswordHasher.cs",
@@ -974,12 +1005,11 @@
               "RelativeToolTip": "..\\EBS.Infrastructure\\PasswordHasher.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:46:51.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:46:51.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 62,
               "Title": "EBSDbContext.cs",
               "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\EBSDbContext.cs",
               "RelativeDocumentMoniker": "..\\EBS.DataAccess\\EBSDbContext.cs",
@@ -987,12 +1017,11 @@
               "RelativeToolTip": "..\\EBS.DataAccess\\EBSDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:45:41.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:45:41.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 63,
               "Title": "RoleAuthorizationHandler.cs",
               "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Infrastructure\\RoleAuthorizationHandler.cs",
               "RelativeDocumentMoniker": "..\\EBS.Infrastructure\\RoleAuthorizationHandler.cs",
@@ -1000,25 +1029,11 @@
               "RelativeToolTip": "..\\EBS.Infrastructure\\RoleAuthorizationHandler.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAApwBQAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:47:25.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:47:25.642Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "PermissionAuthorizationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Infrastructure\\PermissionAuthorizationHandler.cs",
-              "RelativeDocumentMoniker": "..\\EBS.Infrastructure\\PermissionAuthorizationHandler.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Infrastructure\\PermissionAuthorizationHandler.cs",
-              "RelativeToolTip": "..\\EBS.Infrastructure\\PermissionAuthorizationHandler.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:47:02.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 64,
               "Title": "PermissionService.cs",
               "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Application\\Services\\PermissionService.cs",
               "RelativeDocumentMoniker": "..\\EBS.Application\\Services\\PermissionService.cs",
@@ -1026,25 +1041,11 @@
               "RelativeToolTip": "..\\EBS.Application\\Services\\PermissionService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:53:01.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:53:01.503Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "RoleEntity.cs",
-              "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\RoleEntity.cs",
-              "RelativeDocumentMoniker": "..\\EBS.DataAccess\\Entities\\RoleEntity.cs",
-              "ToolTip": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.DataAccess\\Entities\\RoleEntity.cs",
-              "RelativeToolTip": "..\\EBS.DataAccess\\Entities\\RoleEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:42:12.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "PermissionRequirement.cs",
               "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Infrastructure\\PermissionRequirement.cs",
               "RelativeDocumentMoniker": "..\\EBS.Infrastructure\\PermissionRequirement.cs",
@@ -1052,12 +1053,11 @@
               "RelativeToolTip": "..\\EBS.Infrastructure\\PermissionRequirement.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:47:18.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:47:18.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "CustomClaims.cs",
               "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Infrastructure\\CustomClaims.cs",
               "RelativeDocumentMoniker": "..\\EBS.Infrastructure\\CustomClaims.cs",
@@ -1065,12 +1065,11 @@
               "RelativeToolTip": "..\\EBS.Infrastructure\\CustomClaims.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:45:53.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:45:53.618Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "JwtOptions.cs",
               "DocumentMoniker": "C:\\Users\\marse\\source\\repos\\RITG-practic-EBS\\backend\\EBS.Infrastructure\\JwtOptions.cs",
               "RelativeDocumentMoniker": "..\\EBS.Infrastructure\\JwtOptions.cs",
@@ -1078,8 +1077,7 @@
               "RelativeToolTip": "..\\EBS.Infrastructure\\JwtOptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T10:45:53.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T10:45:53.129Z"
             }
           ]
         }

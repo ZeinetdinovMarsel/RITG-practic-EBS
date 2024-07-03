@@ -4,7 +4,7 @@ namespace EBS.API.Contracts;
 
 public record BookingRequest
 (
-    [Required] int Id,
+    int Id,
     int userId,
     DateTime BookingDate,
     [Required] bool HasAttended,

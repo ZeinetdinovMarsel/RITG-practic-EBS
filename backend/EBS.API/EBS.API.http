@@ -1,4 +1,4 @@
-@EBS.API_HostAddress = http://localhost:5138
+@EBS.API_HostAddress = http://localhost:5183
 
 GET {{EBS.API_HostAddress}}/weatherforecast/
 Accept: application/json
