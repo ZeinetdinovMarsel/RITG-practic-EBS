@@ -43,7 +43,7 @@ public class UsersRepository : IUsersRepository
     public async Task<int> Update(int id, UserModel user, int role)
     {
         var newUserEntity = await _context.Users
-        .SingleOrDefaultAsync(u => u.Id == id)
+        .SingleOrDefaultAsync(u => u.Id == user.Id)
         ?? throw new InvalidOperationException("Пользователь не найден");
 
         await _context.Users
@@ -52,7 +52,8 @@ public class UsersRepository : IUsersRepository
                 .SetProperty(u => u.Username, u => user.Username)
                 .SetProperty(u => u.Email, u => user.Email)
                 .SetProperty(u => u.IsAdmin, u => user.IsAdmin)
-                .SetProperty(u => u.UpdatedAt, u => user.UpdatedAt));
+                .SetProperty(u => u.UpdatedAt, u => user.UpdatedAt)
+                .SetProperty(u => u.PasswordHash, u => user.PasswordHash));
 
         await _context.UserRoleEntity
             .Where(u => u.UserId == id)

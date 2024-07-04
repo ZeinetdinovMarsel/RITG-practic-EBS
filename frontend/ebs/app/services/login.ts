@@ -21,7 +21,7 @@ export const login = async (loginRequest: LoginRequest): Promise<boolean> => {
             return true;
         } else {
             const errorResponse = await response.json();
-            message.error(`${errorResponse.message}`);
+            message.error(`${errorResponse}`);
             return false;
         }
     } catch (error) {

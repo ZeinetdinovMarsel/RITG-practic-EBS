@@ -5,10 +5,11 @@ namespace EBS.API.Contracts;
 public record BookingRequest
 (
     int Id,
-    int userId,
+    int EventId,
+    int UserId,
     DateTime BookingDate,
-    [Required] bool HasAttended,
-    [Required] bool IsCancelled
+    bool HasAttended,
+    bool IsCancelled
 );
 public record BookingResponse
 (

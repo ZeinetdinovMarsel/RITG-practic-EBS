@@ -84,15 +84,25 @@ export default function RootLayout({
               {items.map(item => (
                 <Menu.Item key={item.key}>{item.label}</Menu.Item>
               ))}
-              {userRole === Role.Admin && isAuthenticated &&(
-                <Menu.Item key="AdminPanel">
-                  <Link href={"/admin"}>Админ</Link>
-                </Menu.Item>
+              {userRole === Role.Admin && isAuthenticated && (
+                <>
+                  <Menu.Item key="AdminPanel">
+                    <Link href={"/admin"}>Админ</Link>
+                  </Menu.Item>
+                  <Menu.Item key="Statistics">
+                    <Link href={"/statistics"}>Статистика</Link>
+                  </Menu.Item>
+                </>
               )}
               {isAuthenticated ? (
-                <><Menu.Item key="Statistics">
-                  <Link href={"/statistics"}>Статистика</Link>
-                </Menu.Item><Menu.Item key="Logout" onClick={handleLogout}>
+                <>
+                  <Menu.Item key="Bookings">
+                    <Link href={"/bookings"}>Бронирование</Link>
+                  </Menu.Item>
+                  <Menu.Item key="User">
+                    <Link href={"/user"}>Профиль</Link>
+                  </Menu.Item>
+                  <Menu.Item key="Logout" onClick={handleLogout}>
                     Выход
                   </Menu.Item></>
               ) : (

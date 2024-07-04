@@ -8,7 +8,7 @@ public class BookingService : IBookingService
     private readonly IBookingRepository _bookingRepository;
     private readonly IEventRepository _eventRepository;
     private readonly IUsersRepository _userRepository;
-    public BookingService(IBookingRepository bookingRepository, IEventRepository eventRepository,IUsersRepository usersRepository)
+    public BookingService(IBookingRepository bookingRepository, IEventRepository eventRepository, IUsersRepository usersRepository)
     {
         _bookingRepository = bookingRepository;
         _eventRepository = eventRepository;
@@ -19,7 +19,8 @@ public class BookingService : IBookingService
     {
         var user = await _userRepository.GetById(userId);
         bool isAdmin = user.IsAdmin;
-        return await _bookingRepository.GetAllBookingsAsync(isAdmin);
+        
+        return await _bookingRepository.GetAllBookingsAsync(isAdmin, userId);
     }
 
     public Task<BookingModel> GetBookingByIdAsync(int bookingId)
@@ -30,8 +31,8 @@ public class BookingService : IBookingService
     public async Task<BookingModel> CreateBookingAsync(BookingModel bookingModel)
     {
         var existingBooking = await _bookingRepository.GetBookingByUserAndEventAsync(bookingModel.UserId, bookingModel.EventId);
-        
-        if (existingBooking != null)
+
+        if (existingBooking != null && (!existingBooking.HasAttended && !existingBooking.IsCancelled))
         {
             throw new Exception("Данный пользователь уже забронировал место.");
         }

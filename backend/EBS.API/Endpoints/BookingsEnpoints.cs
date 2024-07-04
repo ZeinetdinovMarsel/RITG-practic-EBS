@@ -36,7 +36,7 @@ public static class BookingsEndpoints
         return Results.Ok(booking);
     }
 
-    private static async Task<IResult> CreateBooking(BookingRequest request,
+    private static async Task<IResult> CreateBooking(int eventId,
                                                      BookingService bookingService,
                                                      UsersService usersService,
                                                      HttpContext context)
@@ -47,7 +47,7 @@ public static class BookingsEndpoints
             var userId = user.Id;
             BookingModel bookingModel = new BookingModel()
             {
-                EventId = request.Id,
+                EventId = eventId,
                 UserId = userId,
                 BookingDate = DateTime.UtcNow,
                 CreatedAt = DateTime.UtcNow,
@@ -64,19 +64,27 @@ public static class BookingsEndpoints
         }
     }
 
-    private static async Task<IResult> UpdateBooking(BookingRequest request, BookingService bookingService)
+    private static async Task<IResult> UpdateBooking(BookingRequest request, BookingService bookingService, HttpContext context, UsersService usersService)
     {
         try
         {
+
+            var userId = request.UserId;
+            if(userId == 0)
+            {
+                userId = (await usersService.GetUserFromToken(context.Request.Cookies["jwt"])).Id;
+            }
+
             BookingModel bookingModel = new BookingModel()
             {
-                EventId = request.Id,
-                UserId = request.Id,
+                EventId = request.EventId,
+                UserId = userId,
                 BookingDate = request.BookingDate,
                 UpdatedAt = DateTime.UtcNow,
                 HasAttended = request.HasAttended,
                 IsCancelled = request.IsCancelled
             };
+
             await bookingService.UpdateBookingAsync(request.Id, bookingModel);
 
             return Results.Ok(request.Id);

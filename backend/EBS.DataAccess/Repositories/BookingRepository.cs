@@ -14,7 +14,7 @@ public class BookingRepository : IBookingRepository
         _dbContext = dbContext;
     }
 
-    public async Task<List<BookingModel>> GetAllBookingsAsync(bool isAdmin)
+    public async Task<List<BookingModel>> GetAllBookingsAsync(bool isAdmin, int userId)
     {
 
         if (isAdmin)
@@ -24,6 +24,7 @@ public class BookingRepository : IBookingRepository
                 .Select(b => new BookingModel
                 {
                     Id = b.Id,
+                    UserId = b.UserId,
                     EventId = b.EventId,
                     BookingDate = b.BookingDate,
                     CreatedAt = b.CreatedAt,
@@ -47,6 +48,7 @@ public class BookingRepository : IBookingRepository
                     HasAttended = b.HasAttended,
                     IsCancelled = b.IsCancelled,
                 })
+                .Where(b => b.UserId == userId)
                 .ToListAsync();
         }
     }
@@ -107,6 +109,7 @@ public class BookingRepository : IBookingRepository
         if (bookingEntity == null)
             return null;
 
+
         bookingEntity.EventId = bookingModel.EventId;
         bookingEntity.UserId = bookingModel.UserId;
         bookingEntity.BookingDate = bookingModel.BookingDate;
@@ -115,6 +118,7 @@ public class BookingRepository : IBookingRepository
         bookingEntity.IsCancelled = bookingModel.IsCancelled;
         bookingEntity.Event = eventEntity;
         bookingEntity.User = userEntity;
+
 
         _dbContext.SaveChanges();
 
@@ -138,6 +142,7 @@ public class BookingRepository : IBookingRepository
     {
         return await _dbContext.Bookings
             .Where(b => b.UserId == userId && b.EventId == eventId)
+            .OrderByDescending(b => b.UpdatedAt) 
             .Select(b => new BookingModel
             {
                 Id = b.Id,
@@ -152,11 +157,13 @@ public class BookingRepository : IBookingRepository
             .FirstOrDefaultAsync();
     }
 
+
     public async Task<int> GetAttendeesCountForEventAsync(int eventId)
     {
         return await _dbContext.Bookings
-            .CountAsync(b => b.EventId == eventId);
+            .CountAsync(b => b.EventId == eventId && !b.IsCancelled && !b.HasAttended);
     }
+
     public async Task<int> GetTotalBookingsCountAsync()
     {
         return await _dbContext.Bookings.CountAsync();

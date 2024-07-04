@@ -22,6 +22,7 @@ public record UsersAdminRequest
 (
     int UserId,
     [Required] string Username,
+    string oldPassword,
     string Password,
     [Required] string Email,
     bool IsAdmin

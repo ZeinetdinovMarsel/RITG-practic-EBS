@@ -14,11 +14,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddCors();
 
-builder.Services.AddDbContext<EBSDbContext>(
-    options =>
-    {
-        options.UseNpgsql(builder.Configuration.GetConnectionString(nameof(EBSDbContext)));
-    });
 
 
 
@@ -30,6 +25,11 @@ builder.Services.AddScoped<UsersService>();
 builder.Services.AddScoped<EventService>();
 builder.Services.AddScoped<BookingService>();
 builder.Services.AddScoped<StatisticsService>();
+builder.Services.AddDbContext<EBSDbContext>(
+    options =>
+    {
+        options.UseNpgsql(builder.Configuration.GetConnectionString(nameof(EBSDbContext)));
+    });
 
 builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 builder.Services.AddScoped<IEventRepository, EventRepository>();

@@ -3,6 +3,7 @@ using EBS.API.Extentions;
 using EBS.Application.Services;
 using EBS.Core.Enums;
 using EBS.Core.Models;
+using EBS.DataAccess.Repositories;
 
 namespace EBS.API.Endpoints;
 public static class UsersEndpoints
@@ -97,21 +98,29 @@ public static class UsersEndpoints
     }
     private static async Task<IResult> UpdateUser(
        UsersService userService,
-       UsersAdminRequest request)
+       UsersAdminRequest request,
+       HttpContext context)
     {
         try
         {
+            var userId = request.UserId;
+            var loginId = (await userService.GetUserFromToken(context.Request.Cookies["jwt"])).Id;
+            if (request.UserId == 0)
+            {
+                userId = loginId;
+            }
             UserModel usr = new UserModel()
             {
-                Id = request.UserId,
+                Id = userId,
                 Username = request.Username,
                 PasswordHash = request.Password,
                 Email = request.Email,
                 IsAdmin = request.IsAdmin,
                 UpdatedAt = DateTime.UtcNow,
             };
+            bool isAdmin = Role.Admin == await userService.GetUserRole(loginId);
 
-            var userId = await userService.UpdateUserAsync(request.UserId, usr);
+            userId = await userService.UpdateUserAsync(userId, isAdmin, usr, request.oldPassword);
 
             return Results.Ok(userId);
         }

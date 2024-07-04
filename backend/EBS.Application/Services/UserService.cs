@@ -55,14 +55,14 @@ public class UsersService : IUsersService
         return token;
     }
 
-    public async Task<int> UpdateUserAsync(int id, UserModel user)
+    public async Task<int> UpdateUserAsync(int id, bool isAdmin, UserModel user, string oldPassword)
     {
         if (user == null)
         {
             throw new ArgumentNullException(nameof(UserModel));
         }
         var existingUser = await _usersRepository.GetByEmail(user.Email);
-        if (existingUser != null && id != existingUser.Id)
+        if (existingUser != null && id != existingUser.Id && existingUser.Id != id)
         {
             throw new InvalidOperationException("Почта уже занята");
         }
@@ -71,10 +71,22 @@ public class UsersService : IUsersService
             throw new InvalidOperationException("Пользователя не существует");
         }
 
-        var hashedPassword = _passwordHasher.Generate(user.PasswordHash);
-
-        user.PasswordHash = hashedPassword;
-
+        if (isAdmin)
+        {
+            var hashedPassword = _passwordHasher.Generate(user.PasswordHash);
+            if (existingUser.PasswordHash != hashedPassword && existingUser.PasswordHash != user.PasswordHash)
+                user.PasswordHash = hashedPassword;
+        }
+        else if (_passwordHasher.Verify(oldPassword, existingUser.PasswordHash))
+        {
+            var hashedPassword = _passwordHasher.Generate(user.PasswordHash);
+            if (existingUser.PasswordHash != hashedPassword)
+                user.PasswordHash = hashedPassword;
+        }
+        else
+        {
+            throw new InvalidOperationException("Не правильный пароль");
+        }
         int role = user.IsAdmin ? 1 : 2;
 
         return await _usersRepository.Update(id, user, role);
@@ -85,7 +97,7 @@ public class UsersService : IUsersService
         var user = await _usersRepository.GetById(id);
         if (user == null)
         {
-            throw new InvalidOperationException("Пользователя не существует"); 
+            throw new InvalidOperationException("Пользователя не существует");
         }
         return await _usersRepository.Delete(id);
     }

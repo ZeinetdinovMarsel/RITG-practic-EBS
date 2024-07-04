@@ -1,7 +1,7 @@
 import { message } from "antd";
 
 export interface RegisterRequest {
-    userName: string,
+    username: string,
     password: string,
     email: string,
 }

@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Modal, Form, Input, Checkbox } from "antd";
 import { RegisterRequest } from "../services/users";
 import { User } from "../Models/User";
-import Option from "antd/es/select";
-import { Role } from "../enums/Role";
 
 interface CreateUpdateUserProps {
     mode: string;

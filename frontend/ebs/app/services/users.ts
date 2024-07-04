@@ -1,8 +1,10 @@
+import { message } from "antd";
 import { Role } from "../enums/Role";
 
 export interface RegisterRequest {
     userId: string,
     username: string,
+    oldPassword:string,
     password: string,
     email: string,
     isAdmin: boolean
@@ -10,21 +12,26 @@ export interface RegisterRequest {
 
 
 export const createUser = async (registerRequest: RegisterRequest) => {
+    try {
+        console.log(JSON.stringify(registerRequest));
+        const response = await fetch("http://localhost:5183/user/register", {
+            method: "POST",
+            headers: {
+                "content-type": "application/json",
 
-    console.log(JSON.stringify(registerRequest));
-    const response = await fetch("http://localhost:5183/user/register", {
-        method: "POST",
-        headers: {
-            "content-type": "application/json",
-
-        },
-        credentials: 'include',
-        body: JSON.stringify(registerRequest),
-    });
-    await checkResponse(response);
+            },
+            credentials: 'include',
+            body: JSON.stringify(registerRequest),
+        });
+        await checkResponse(response);
+    }
+    catch (error) {
+        message.error(error.message)
+    }
 }
 
 export const getUsersByRole = async (role: Role) => {
+
     const response = await fetch(`http://localhost:5183/users/role/all?roleId=${role}`, {
         method: "GET",
         headers: {
@@ -38,26 +45,37 @@ export const getUsersByRole = async (role: Role) => {
 
 export const updateUser = async (registerRequest: RegisterRequest) => {
 
-    const response = await fetch("http://localhost:5183/user/profile/update", {
-        method: "PUT",
-        headers: {
-            "content-type": "application/json",
-        },
-        credentials: 'include',
-        body: JSON.stringify(registerRequest),
-    });
-    await checkResponse(response);
-    return await response.json();
+    try {
+        const response = await fetch("http://localhost:5183/user/profile/update", {
+            method: "PUT",
+            headers: {
+                "content-type": "application/json",
+            },
+            credentials: 'include',
+            body: JSON.stringify(registerRequest),
+        });
+        await checkResponse(response);
+        return await response.json();
+    }
+    catch (error) {
+        message.error(error.message)
+    }
+
 
 }
 
 
 export const deleteUser = async (id: string) => {
-    const response = await fetch(`http://localhost:5183/user/profile/delete/${id}`, {
-        method: "DELETE",
-        credentials: 'include'
-    });
-    await checkResponse(response);
+    try {
+        const response = await fetch(`http://localhost:5183/user/profile/delete/${id}`, {
+            method: "DELETE",
+            credentials: 'include'
+        });
+        await checkResponse(response);
+    }
+    catch (error) {
+        message.error(error.message)
+    }
 }
 
 const checkResponse = async (response: Response) => {

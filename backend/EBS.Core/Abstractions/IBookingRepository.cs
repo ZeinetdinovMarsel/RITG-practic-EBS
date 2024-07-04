@@ -6,7 +6,7 @@ public interface IBookingRepository
 {
     Task<BookingModel> CreateBookingAsync(BookingModel bookingModel);
     Task<bool> DeleteBookingAsync(int bookingId);
-    Task<List<BookingModel>> GetAllBookingsAsync(bool isAdmin);
+    Task<List<BookingModel>> GetAllBookingsAsync(bool isAdmin, int userId);
     Task<double> GetAttendanceRateAsync(int eventId);
     Task<Dictionary<int, int>> GetAttendeesCountByEventAsync();
     Task<int> GetAttendeesCountForEventAsync(int eventId);

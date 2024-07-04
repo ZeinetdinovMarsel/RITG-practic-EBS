@@ -1,7 +1,8 @@
-import { Table, Button, Space } from "antd";
+import { Table, Button, Space, message } from "antd";
 import { Role } from "../enums/Role";
 import moment from "moment";
 import { EventRequest } from "../services/events";
+import { BookingRequest, createBooking } from "../services/bookings";
 
 interface EventListProps {
     events: EventRequest[];
@@ -38,27 +39,46 @@ const EventList: React.FC<EventListProps> = ({ events, handleOpen, handleDelete,
             dataIndex: "maxAttendees",
             key: "maxAttendees",
         },
-        {
-            title: "Действия",
+    ];
+    columns.push({
+        title: "Действия",
+        key: "actions",
+        render: (text: any, record: EventRequest) => (
+            <Button type="primary" onClick={() => handleBook(record)}>Забронировать</Button>
+        ),
+    });
+    if (userRole === Role.Admin) {
+        columns.push({
+            title: "Действия Админв",
             key: "actions",
             render: (text: any, record: EventRequest) => (
-                userRole === Role.Admin && (
-                    <Space size="middle">
-                        <Button type="primary" onClick={() => handleOpen(record)}>Изменить</Button>
-                        <Button onClick={() => handleDelete(record.id)}>Удалить</Button>
-                    </Space>
-                )
+                <Space size="middle">
+                    <Button type="primary" onClick={() => handleOpen(record)}>Изменить</Button>
+                    <Button onClick={() => handleDelete(record.id)}>Удалить</Button>
+                </Space>
             ),
-        },
-    ];
-    
-    if (userRole === Role.Admin) {
+        });
         columns.unshift({
             title: "id",
             dataIndex: "id",
             key: "id",
         });
     }
+    
+
+
+    const handleBook = async (event: EventRequest) => {
+        const bookingRequest: BookingRequest = {
+            eventId: event.id,
+            userId: 1,
+            bookingDate: moment().format("YYYY-MM-DDTHH:mm:ss"),
+            hasAttended: false,
+            isCancelled: false,
+        };
+
+       await createBooking(bookingRequest);
+
+    };
 
     return (
         <Table

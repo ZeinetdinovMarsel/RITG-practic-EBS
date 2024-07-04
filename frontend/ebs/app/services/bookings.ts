@@ -1,7 +1,9 @@
 import { message } from "antd";
 
 export interface BookingRequest {
+    id: number;
     eventId: number;
+    userId:number;
     bookingDate: string| null;
     hasAttended: boolean;
     isCancelled: boolean;
@@ -17,7 +19,7 @@ export const getAllBookings = async (): Promise<BookingRequest[]> => {
             return await response.json();
         } else {
             const errorResponse = await response.json();
-            message.error(`${errorResponse.message}`);
+            message.error(`${errorResponse}`);
             return [];
         }
     } catch (error) {
@@ -36,7 +38,7 @@ export const getBookingById = async (bookingId: number): Promise<BookingRequest 
             return await response.json();
         } else {
             const errorResponse = await response.json();
-            message.error(`${errorResponse.message}`);
+            message.error(`${errorResponse}`);
             return null;
         }
     } catch (error) {
@@ -47,13 +49,13 @@ export const getBookingById = async (bookingId: number): Promise<BookingRequest 
 
 export const createBooking = async (bookingRequest: BookingRequest): Promise<boolean> => {
     try {
-        console.log(bookingRequest);
-        const response = await fetch("http://localhost:5183/bookings", {
+        
+        var eventId = bookingRequest.eventId
+        const response = await fetch(`http://localhost:5183/bookings/?eventId=${eventId}`, {
             method: "POST",
             headers: {
                 "content-type": "application/json",
             },
-            body: JSON.stringify(bookingRequest),
             credentials: 'include'
         });
 
@@ -62,7 +64,7 @@ export const createBooking = async (bookingRequest: BookingRequest): Promise<boo
             return true;
         } else {
             const errorResponse = await response.json();
-            message.error(`${errorResponse.message}`);
+            message.error(`${errorResponse}`);
             return false;
         }
     } catch (error) {
@@ -87,7 +89,7 @@ export const updateBooking = async (bookingId: number, bookingRequest: BookingRe
             return true;
         } else {
             const errorResponse = await response.json();
-            message.error(`${errorResponse.message}`);
+            message.error(`${errorResponse}`);
             return false;
         }
     } catch (error) {
@@ -108,7 +110,7 @@ export const deleteBooking = async (bookingId: number): Promise<boolean> => {
             return true;
         } else {
             const errorResponse = await response.json();
-            message.error(`${errorResponse.message}`);
+            message.error(`${errorResponse}`);
             return false;
         }
     } catch (error) {

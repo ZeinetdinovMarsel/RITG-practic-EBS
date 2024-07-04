@@ -5,7 +5,7 @@ namespace EBS.Core.Abstractions;
 public interface IUsersService
 {
     Task<int> DeleteUserAsync(int id);
-    Task<int> UpdateUserAsync(int id, UserModel user);
+    Task<int> UpdateUserAsync(int id,bool isAdmin, UserModel user, string oldPassword);
     Task<List<UserModel>> GetAllUsers();
     Task<List<UserModel>> GetAllUsersByRole(int role);
     Task<UserModel> GetUserFromToken(string token);

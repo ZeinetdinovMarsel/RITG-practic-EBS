@@ -8,8 +8,8 @@ namespace EBS.API.Endpoints
     {
         public static IEndpointRouteBuilder MapStatisticsEndpoints(this IEndpointRouteBuilder app)
         {
-            app.MapGet("/api/statistics/bookings", GetAllBookingsStatistics).RequirePermissions(Permission.Read);
-            app.MapGet("/api/statistics/attendance", GetAttendanceStatistics).RequirePermissions(Permission.Read);
+            app.MapGet("/statistics/bookings", GetAllBookingsStatistics).RequireRoles(Role.Admin);
+            app.MapGet("/statistics/attendance", GetAttendanceStatistics).RequireRoles(Role.Admin);
 
             return app;
         }
